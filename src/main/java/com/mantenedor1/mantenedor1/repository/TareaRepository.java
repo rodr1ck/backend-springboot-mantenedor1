@@ -8,7 +8,4 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface TareaRepository extends JpaRepository<Tarea, Integer> {
 
-    // select * from paciente where nombres = ''
-    List<Tarea> findAllById(String id);
-
 }
